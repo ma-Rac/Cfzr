@@ -7,5 +7,14 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "me?",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "feathers": "^2.0.1",
+    "feathers-errors": "^2.4.0",
+    "feathers-mongoose": "^3.5.1",
+    "feathers-rest": "^1.4.3",
+    "feathers-socketio": "^1.4.1",
+    "mongoose": "^4.5.4"
+  }
 }
