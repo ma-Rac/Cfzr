@@ -13,7 +13,7 @@ const Game = require('./models/GameModel');
 // See http://mongoosejs.com/docs/promises.html
 mongoose.Promise = global.Promise;
 
-const mongo_url = process.env.MONGODB_URI || 'mongodb://localhost:27017/rockpaperscissors';
+const mongo_url = process.env.MONGODB_URI || 'mongodb://localhost:27017/CFZR';
 mongoose.connect(mongo_url);
 
 // Create a feathers instance.
